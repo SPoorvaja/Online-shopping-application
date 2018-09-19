@@ -1,0 +1,71 @@
+use test;
+drop table pizza;
+
+create table pizza(
+	pid INTEGER PRIMARY KEY,
+	pname TEXT,
+	category TEXT,
+	sub_category TEXT,
+	price float,
+	description TEXT
+	
+);
+
+insert into pizza values (1,"Stuffed Bell Peppers","VEG","Appetizers",99,"Fresh capsicum with  vegetables and baked to perfection");
+insert into pizza values (2,"Veg Cheese Rolls","VEG","Appetizers",99,"A delicious and crunchy rolls with oozing cheese.");
+insert into pizza values (3,"Kachori with Kadhi","VEG","Appetizers",119,"A Rajastani receipe a delicious chaat to indulge yourself");
+insert into pizza values (4,"Taco Samosa","VEG","Appetizers",89,"A twist to the traditional samosa");
+
+insert into pizza values (5,"Amristari Fish","NONVEG","Appetizers",99,"Amritsari Fish is a tasty spicy fish delicacy that is sure to get you drooling with perfectly pan fried");
+insert into pizza values (6,"Baked Scallops","NONVEG","Appetizers",210,"A delicious mildly sweet baked scallops take your senses to the shore.");
+insert into pizza values (7,"Chettinad Mutton Fry","NONVEG","Appetizers",189,"A very popular dish with homemade masala.");
+insert into pizza values (8,"Breadede Chicken Fingers","NONVEG","Appetizers",129,"A crispy golden fried crunchy chicken with peri-peri sauce");
+
+
+
+insert into pizza values (9,"Lassi","VEG","Beverages",50,"A blend of Yogurt,water,spices with savoury taste.");
+
+insert into pizza values (10,"Sharbat","VEG","Beverages",50,"A popular drink prepared fro fruits and flower petals served cold");
+
+insert into pizza values (11,"Aam Panna","VEG","Beverages",65,"Made from green mangoes to fight the hot summer heat");
+
+insert into pizza values (12,"Jigarthanda","VEG","Beverages",80,"A cold beverage originated from South India.Made with milk and almonds");
+
+
+insert into pizza values (13,"Chicken Creamy Soup","NONVEG","Soups",160,"Steamy boiled with touch of creamy stock to start off your meal");
+insert into pizza values (14,"Thai Prawn Soup","NONVEG","Soups",155,"A simple,robustly flavored with lemon grass and hot peppers");
+insert into pizza values (15,"Wonton Soup","NONVEG","Soups",180,"A traditional chinese recipe resembles the shape of a cloud and hence called as a wonton");
+insert into pizza values (16,"Chicken Manchow Soup","NONVEG","Soups",170,"A popular chinese style soup made from freash vegetables.");
+
+insert into pizza values (17,"Cheesecake ","NONVEG","Desserts",90,"A cheesy melt in the mouth baked goodness");
+insert into pizza values (18,"Triffle","NONVEG","Desserts",130,"An English dessert made with fruit and thin layer of sponge cake soaked in sherry");
+insert into pizza values (19,"Tiramisu","NONVEG","Desserts",110,"A popular coffee-flavoured italian cuisine with whipped mixture chocolate,cheese and cocoa");
+insert into pizza values (20,"Panna Cotta","NONVEG","Desserts",60,"An italian dessert of sweetened cream  with gelatin");
+
+insert into pizza values (21,"Sorbet ","VEG","Desserts",90,"A frozen dessert made from sweetened water with flavourings.");
+insert into pizza values (22,"Banoffee","VEG","Desserts",130,"An English dessert pie made form bananas,cream and coffee with pastry base");
+insert into pizza values (23,"Creme Brulee","VEG","Desserts",110,"A rich custard base topped with contrasting layer of hard caramel and served hot");
+insert into pizza values (24,"Key Lime Pie","VEG","Desserts",110,"An American dessert made of Key Lime juice and condensed milk for pie crust");
+
+insert into pizza values (25,"Margherita","VEG","Pizza classic",160,"A hugely popular margherita with a deliciously tangly single cheese topping.");
+insert into pizza values (26,"Farm House","VEG","Pizza classic",160,"A pizza that goes ballistic on veggies,crunchy overload for the veg lovers");
+insert into pizza values (27,"VEG-Xtravagenza","VEG","Pizza classic",170,"A pizza that decidedly staggers under an overload of exotic lack olives and onion.");
+insert into pizza values (28,"5-Pepper","VEG","Salads & Pastas",60,"An exotic range,topped with red,yellow and green bell peppers with paprika and jalapeno.");
+
+insert into pizza values (29,"Chicken Fiesta","NONVEG","Pizza Supreme",200,"An exotic addition,topped with chunky,spicy chicken with onions and capsicum.");
+insert into pizza values (30,"Peri-Peri Chicken","NONVEG","Pizza Supreme",220,"Chicken marinated in spicy and tangy peri-peri sause with spicy red paprika for hot heads.");
+insert into pizza values (31,"Chicken Dominator","NONVEG","Pizza Supreme",260,"This is for some no-nonsense chicken lovers.If you love chicken in any form,this is for you.");
+insert into pizza values (32,"Chicken golden delight","NONVEG","Pizza Supreme",60,"Mmm! Barbeque Chicken with a topping of golden corn with extra cheese.Worth its weight in gold.");
+
+insert into pizza values (33,"Four Cheese pasta","VEG","Pastas and Sides",200,"A delectable dish by combining cheeses - parmesan and emmental.");
+insert into pizza values (34,"Ravioli with coco & lemon sauce","VEG","Pastas and Sides",200,"Smooth, velvety ravioli stuffed with vegetables, bathed in coconut milk sauce.");
+insert into pizza values (35,"Fusilli Tomatina","VEG","Pastas and Sides",200,"Tangy flavours of tomatoes, wrapped around chunky fusilli. This one will wow your taste buds.");
+insert into pizza values (36,"Sicilian Spicy Pasta","VEG","Pastas and Sides",200,"A meal in minutes. Broccoli, pasta and cheese come together to give you this satisfying meal in a snap!.");
+
+insert into pizza values (37,"Taco-Mexicana","NONVEG","Pastas and Sides",120,"A crispy flaky wrap filled with Hot and smoky chicken rolled with creamy Harissa sauce ");
+insert into pizza values (38,"Zingy Parcel","NONVEG","Pastas and Sides",160,"One parcel is always not enough,an irresistable cheesy creamy chicken delight.");
+insert into pizza values (39,"Italian chicken pasta","NONVEG","Pastas and Sides",200,"A creamy penne pasta dressed with herby chicken with exotic veggies.");
+insert into pizza values (40,"Spicy chicken wings ","NONVEG","Pastas and Sides",200,"A spicy and tangy chicken wings with generous amount of barbeque sauce");
+
+
+select * from pizza;
